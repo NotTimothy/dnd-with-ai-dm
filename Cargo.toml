@@ -1,0 +1,10 @@
+[package]
+name = "ai-dungeon-master"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.7"
+druid = "0.7"
+tokio = { version = "1.17", features = ["full"] }
+rust-bert = "0.17"
